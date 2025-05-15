@@ -24,12 +24,16 @@ Ideal for learning or bootstrapping small services, this project supports:
 │ └── routes.py
 ├── tests/
 │ ├── init.py
-│ └── test_notes.py
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── .env.example
+│ ├── test_create_notes.py
+| └── test_notes.py
+├── .flake8
 ├── .gitignore
+├── .pre-commit-config.yaml
+├── docker-compose.yml
+├── Dockerfile
+├── pytest.ini
+├── requirements_dev.txt
+├── requirements.txt
 └── README.md
 
 
